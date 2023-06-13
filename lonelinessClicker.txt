@@ -1,10 +1,10 @@
 Let's make a game!
-name:Loneliness Clicker
-author:SoliratySpiral
-desc:
-created:13/06/2023
-updated:13/06/2023
-version:0.1
+    name:Loneliness Clicker
+    author:SoliratySpiral
+    desc:Loneliness Clicker!
+    created:13/06/2023
+    updated:13/06/2023
+    version:0.1
 
 Settings
     background: src/Puparia.jpg
