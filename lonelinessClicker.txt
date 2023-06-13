@@ -1,4 +1,4 @@
-Let's make a game!
+Let's make a game! 
     name:Loneliness Clicker
     author:SoliratySpiral
     desc:Loneliness Clicker!
