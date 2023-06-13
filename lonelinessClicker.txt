@@ -1,0 +1,38 @@
+Let's make a game!
+name:Loneliness Clicker
+author:SoliratySpiral
+desc:
+created:13/06/2023
+updated:13/06/2023
+version:0.1
+
+Settings
+    background: src/Puparia.jpg
+    building cost increase:100%
+    building cost refund:100%
+    spritesheet:ress_sprite, 48 by 48, src/sprites1.jpg
+
+Layout
+	use default
+
+Buttons
+	*MainButton
+		name:Make a bunny
+		desc:Click this little bunny to get more bunnies!
+		on click:anim icon wobble
+		on click:yield 1 bunny
+		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
+		icon:src/Lexx.jpg
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+
+Resources
+	*bunny|bunnies
+		name:Bunny|Bunnies
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:ress_sprite[4,0]
+		class:noBackground
+		show earned
