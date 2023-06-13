@@ -1,5 +1,5 @@
-Let's make a game! 
-    name:Loneliness Clicker
+Let's make a game!
+	name:Loneliness Clicker
     author:SoliratySpiral
     desc:Loneliness Clicker!
     created:13/06/2023
