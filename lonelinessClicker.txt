@@ -11,6 +11,7 @@ Settings
     building cost increase:100%
     building cost refund:100%
     spritesheet:ress_sprite, 48 by 48, src/sprites1.jpg
+    stylesheet:src/basic.css
 
 Layout
 	use default
